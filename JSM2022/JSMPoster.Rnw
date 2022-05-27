@@ -15,7 +15,7 @@
 \usepackage{lmodern}
 \usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
 \usetheme{gemini}
-\usecolortheme{unl}
+\usecolortheme{gemini}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tikz}
@@ -39,7 +39,7 @@
 % Title
 % ====================
 
-\title{}
+\title{Some fancy title: followed by some more text}
 
 \author{Alyssa P. Hacker \inst{1} \and Ben Bitdiddle \inst{2} \and Lem E. Tweakit \inst{2}}
 
@@ -51,7 +51,7 @@
 
 \footercontent{
   \href{https://www.example.com}{https://www.example.com} \hfill
-  JSM Conference 2022, Pittsburgh, PA --- XYZ-1234 \hfill
+  ABC Conference 2025, New York --- XYZ-1234 \hfill
   \href{mailto:alyssa.p.hacker@example.com}{alyssa.p.hacker@example.com}}
 % (can be left out to remove footer)
 
@@ -60,8 +60,8 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
- \logoright{\includegraphics[height=7cm]{casnr_logo.png}}
- \logoleft{\includegraphics[height=7cm]{nebraska_logo1.jpeg}}
+% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
+% \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
 
 % ====================
 % Body
